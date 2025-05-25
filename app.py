@@ -10,7 +10,6 @@ Swagger(app)  # Enable Swagger UI
 HUGGINGFACE_API_URL = "https://api-inference.huggingface.co/models/"
 
 # Replace with your Hugging Face API token
-#HUGGINGFACE_API_TOKEN = "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"
 
 @app.route('/process', methods=['POST'])
 def process():

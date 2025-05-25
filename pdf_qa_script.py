@@ -258,7 +258,7 @@ class PDFQuestionAnswering:
 # Example usage
 def main():
     # Replace with your Hugging Face API token
-    HF_API_TOKEN = "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"
+    HF_API_TOKEN = ""
     
     # Initialize with a working model
     pdf_qa = PDFQuestionAnswering(HF_API_TOKEN, "deepset/roberta-base-squad2")
